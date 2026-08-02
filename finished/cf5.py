@@ -2,6 +2,7 @@ def bit_plus_plus(n):
     x = 0
     operations = []
     addition = ["X++","++X"]
+    subtraction = ["X--","--X"]
     while n > 0:
         statements = input()
         operations.append(statements)
@@ -9,7 +10,7 @@ def bit_plus_plus(n):
     for i in operations:
         if i in addition:
             x += 1
-        else:
+        elif i in subtraction:
             x -= 1    
     return x        
 
