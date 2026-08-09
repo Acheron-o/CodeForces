@@ -2,7 +2,11 @@ matrix = []
 i = -1
 for i in range(5):
     matrix.append(list(map(int,input().split(" "))))
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> db601b5b24ec91a8b0d4e0321453a6110e199553
 st_idx = 0
 nd_idx = 0
 one_idx = []
@@ -22,4 +26,8 @@ min_steps_list = []
 min_steps_list.append(abs(one_idx[0] - btfl_idx[0]))
 min_steps_list.append(abs(one_idx[1] - btfl_idx[1]))
 min_steps = sum(min_steps_list)
+<<<<<<< HEAD
 print(min_steps)
+=======
+print(min_steps)
+>>>>>>> db601b5b24ec91a8b0d4e0321453a6110e199553

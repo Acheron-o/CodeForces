@@ -1,5 +1,4 @@
 def maximum_value(a,b,c):
-    results = []
     operations = [a + b * c,
                   a * (b + c),
                   a * b * c,
